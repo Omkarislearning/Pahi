@@ -11,6 +11,7 @@ const Dj = () => {
                 VenderType:'Price package',
                 Price:'24000',
                 Description:'World class level experience with your kind of budget, this is what they are experts at Book them for an event coming up in your family and impress your clients with wholesome new variety of food',
+                Link:'/Dj/Dj-Details/1'
             },
             {
                 Img:"https://media.weddingz.in/images/103814cbac23e49d020b0c9a1f712e01/dj-shaggy-music-mumbai.jpg",
@@ -18,6 +19,8 @@ const Dj = () => {
                 Vender:'Price Package',
                 Price:'40000',
                 Description:'Found My Photographer - Mumbai, Mumbai is a group of like-minded photographers and entrepreneurs who have come together to give India a non-stop shop for all your photography needs. Found My Photographer - Mumbai, Mumbai loves to capture your wedding memories and endeavor to provide quality photography and film services without hurting your pocket.',
+                Link:'/Dj/Dj-Details/2'
+                
             },
             {
                 Img:"https://media.weddingz.in/images/37151055b4c17c3ada4f7880b79e4476/dj_mervin_dj_mumbai_987.jpg",
@@ -25,6 +28,7 @@ const Dj = () => {
                 VenderType:'Price Package',
                 Price:'3000',
                 Description:'Found My Photographer - Mumbai, Mumbai is a group of like-minded photographers and entrepreneurs who have come together to give India a non-stop shop for all your photography needs. Found My Photographer - Mumbai, Mumbai loves to capture your wedding memories and endeavor to provide quality photography and film services without hurting your pocket.',
+                Link:'/Dj/Dj-Details/3'
             },
 
         ]

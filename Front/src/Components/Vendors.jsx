@@ -6,7 +6,7 @@ const VendorsDisplay = ({Data}) => {
                             <   div id className="vendor-listing-cards ph-ls">
                                                 <div className="vendor-card">
                                                     <div className="image ripple-effect">
-                                                        <Link to={Data.link}> 
+                                                        <Link to={Data.Link}> 
                                                         <a target >
                                                             <div className="card-image" style={{ backgroundImage: `url(${Data.Img})` }} title="Cine Photo Shoot | Mumbai | Photographer">
                                                             </div>

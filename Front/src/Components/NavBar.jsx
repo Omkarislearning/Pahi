@@ -79,8 +79,8 @@ const NavBar = () => {
                               </Link>
                                
                               </li>
-                              <li><a href="#">Decorators</a></li>
-                              <li><a href="#">Mehendi</a></li>
+                              {/* <li><a href="#">Decorators</a></li>
+                              <li><a href="#">Mehendi</a></li> */}
                               {/* <li><a href="#">Blog</a></li> */}
                             </ul>
                           </li>

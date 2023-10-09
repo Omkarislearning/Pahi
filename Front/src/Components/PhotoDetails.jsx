@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Inner from './Inner'
 
-const PhotoDetails = ({Path,Path2}) => {
+
+const PhotoDetails = ({Path1,Path2,Path3}) => 
+{
     const[photodata,setPhotoData]=useState(
         [
             {
@@ -56,39 +58,58 @@ const PhotoDetails = ({Path,Path2}) => {
     )
   return (
     <>
-        {
-            Path?(
+    {
+        Path1 ? 
+        (
+            
+                            
+                            photodata.map((ele,index)=>(
+                                
+                                <Inner key={index} Data={ele} />
                 
-                    photodata.map((ele,index)=>(
-                        
-                        <Inner key={index} Data={ele} />
-        
-                    ))
-                
-            )
-            :Path2 ?
-            (
-                photodata3.map((ele,index)=>(
-                        
-                    <Inner key={index} Data={ele} />
-    
-                ))
+                            ))
                     
-            )
-            :
-            (   
-                photodata2.map((ele,index)=>(
-                        
-                    <Inner key={index} Data={ele} />
-    
-                ))
+             
+        )
+        :Path2 ?
+        (
+            
+                            
+                            photodata2.map((ele,index)=>(
+                                
+                                <Inner key={index} Data={ele} />
                 
-            )
+                            ))
+                    
             
+        )
+        :Path3 ?
+        (
             
-        }
-   
+                            
+                            photodata3.map((ele,index)=>(
+                                
+                                <Inner key={index} Data={ele} />
+                
+                            ))
+                    
+            
+        )
+        :
+        (
+            photodata2.map((ele,index)=>(
+                                
+                <Inner key={index} Data={ele} />
+
+            ))  
+        )
+    }
+    
+       
+       
+        
     </>
+
    
   )
 }
